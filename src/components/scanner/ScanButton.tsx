@@ -19,7 +19,7 @@ export default function ScanButton({ onClick, loading, disabled }: ScanButtonPro
                 {!loading && (
                     <>
                         <Scan className="w-6 h-6 inline-block mr-2 group-hover:animate-pulse" />
-                        Start Vulnerability Scan
+                        Start Scan Code
                     </>
                 )}
             </NeonButton>
